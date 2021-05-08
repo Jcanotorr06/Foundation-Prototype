@@ -1,0 +1,175 @@
+:root {
+    --main-link-color: #cb1b2c;
+  }
+
+.test{
+    border: 1px solid blue;
+}
+
+.logo img{
+    max-width: 131px;
+}
+
+.top-bar, main{
+    padding: 1rem 16rem;
+}
+
+.top-bar, .top-bar ul{
+    background-color: #fff;
+}
+
+.top-bar a:hover, .notice a:hover{
+    color: var(--main-link-color);
+}
+
+.top-nav-menu a{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.top-nav-menu a:hover{
+    text-decoration: underline;
+}
+
+.bottom-nav-menu a{
+    font-weight: bold;
+    color: #000;
+}
+
+.notice{
+    background-color: #000;
+    color: #fff;
+}
+
+.notice p{
+    font-size: 12px;
+}
+
+.shopping-widget, .shopping-widget a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position:fixed;
+    right: 0;
+    top: 30%;
+    padding: 0.5rem;
+    color: white;
+    background-color: var(--main-link-color);
+    
+}
+
+.img-1{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-img{
+    justify-content: center;
+}
+
+.grid-img img{
+    height: 100%;
+}
+
+.grid-img .cell{
+    display: flex;
+    justify-content: center;
+}
+
+
+.latest-news > p{
+    color:var(--main-link-color)
+}
+
+h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+.latest-news .auto a{
+    text-decoration: underline;
+}
+
+.button{
+    background-color: #000;
+}
+
+.button:hover{
+    background-color: #000;
+}
+
+.cat-1{
+    background: url(https://images.vans.com/is/image/VansBrand/h19-shop-by-mens?$SCALE-ORIGINAL$) no-repeat;
+}
+
+.cat-2{
+    background: url(https://images.vans.com/is/image/VansBrand/h19-shop-by-womens?$SCALE-ORIGINAL$) no-repeat;
+}
+
+.cat-3{
+    background: url(https://images.vans.com/is/image/VansBrand/h19-shop-by-kids?$SCALE-ORIGINAL$) no-repeat;
+}
+
+.cat-4{
+    background: url(https://images.vans.com/is/image/VansBrand/h19-shop-by-skate?$SCALE-ORIGINAL$) no-repeat;
+}
+
+.cat-5{
+    background: url(https://images.vans.com/is/image/VansBrand/h19-shop-by-classics?$SCALE-ORIGINAL$) no-repeat;
+}
+
+.cat-6{
+    background: url(https://images.vans.com/is/image/VansBrand/h19-shop-by-customs?$SCALE-ORIGINAL$) no-repeat;
+}
+
+.inner{
+    background: rgba(26, 26, 26, 0.562);
+    height: 100%;
+    padding: 65px 0;
+    font-weight: bold;
+}
+
+.inner a {
+    color: #85bee3;
+    transition: 0.5s;
+}
+
+.inner a:hover{
+    color: #fff;
+    background-color: var(--main-link-color);
+}
+
+.inner h4{
+    color: #fff;
+}
+
+footer{
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.footer-1{
+    padding: 0 1rem;
+}
+
+.footer-1 h6{
+    font-size: 10pt;
+}
+
+.footer-1 a{
+    font-size: 8pt
+}
+
+.footer-2 .large{
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.footer-2 p{
+    font-size: 8pt;
+    color: #ccc;
+}
+
+.social{
+    background-color: #3e3e3e;
+}
